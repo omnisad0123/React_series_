@@ -1,0 +1,60 @@
+{
+  "name": "my-react-app",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    // Library for testing React components
+    "@testing-library/jest-dom": "^5.17.0",
+    // React testing utilities for React components
+    "@testing-library/react": "^13.4.0",
+    // User events simulation library for testing React components
+    "@testing-library/user-event": "^13.5.0",
+    // React library for building user interfaces
+    "react": "^18.2.0",
+    // React package for DOM manipulation
+    "react-dom": "^18.2.0",
+    // Scripts and configurations for running React applications and enject javascript in index.html
+    "react-scripts": "5.0.1",
+    // Library for measuring web performance metrics
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    // Command to start the development server
+    "start": "react-scripts start",
+    // Command to build the React application for production
+    "build": "react-scripts build",
+    // Command to run tests for the React application
+    "test": "react-scripts test",
+    // Command to eject the React application and expose configuration files
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    // Configuration extending ESLint rules for React applications
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    // Browserslist configuration for supported browsers in production
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    // Browserslist configuration for supported browsers in development
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
+
+
+some notes-:
+* function name in any component should be start with capital latter.
+* all components int he react app should be wrapped in the single component 
+* while making any component keep file name with jsx file.
+* basicaly react created a virtual dom for rendering all the app component in single page , it uses package react-dom and its methods  
+and we are manipulating this dom using jsx.
